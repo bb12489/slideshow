@@ -4,7 +4,7 @@ https://www.raspberrypi.org/downloads/raspbian/<br />
 <br />
 In Desktop Environment:<br />
 <br />
-Connect to Wlan in upper right corner<br /> 
+Connect to Wlan in upper right corner<br />
 Startx: Menu ->Preferences -> Raspberry Pi Configuration -> System -> Boot: To CLI<br />
 Startx: Menu ->Preferences -> Raspberry Pi Configuration -> System -> Network at boot: Wait for network checked<br />
 Startx: Menu ->Preferences -> Raspberry Pi Configuration -> Performance -> GPU Memory: 128<br />
@@ -13,7 +13,7 @@ Then reboot<br />
 <strong>Disconnect any USB-Drives bevor executing the setup command</strong><br />
 Type commands to CLI:<br />
 <br />
-`sudo git clone https://github.com/Hatschi915/Slideshow.git /home/pi/temp`<br />
+`sudo git clone https://github.com/bb12489/Slideshow.git /home/pi/temp`<br />
 <br />
 `cd temp`<br />
 <br />
@@ -26,7 +26,7 @@ Preconfigured samba share, to access all needed folders and settings<br />
 New pictures shown first, then randomly<br />
 Display advertisment after x pictures<br />
 Slideshow runs of USB Stick for easy deleting of files and to keep things tidy<br />
-Local webserver to change settings of the slideshow. Connect to the Wlan, which the pi is connected to <br /> 
+Local webserver to change settings of the slideshow. Connect to the Wlan, which the pi is connected to <br />
 and type `http://raspberrypi` to access the settings page<br />
 <br />
 <strong>Useful knowledge:</strong><br />
@@ -57,4 +57,3 @@ If there is no USB Stick attached new pictures will be displayed but deleted aft
 The USB Stick can be disconnected and reconnected while the slideshow is running<br />
 <br />
 PLEASE READ LICENSING AND COPYRIGHT NOTICES ESPECIALLY IF USING FOR COMMERCIAL PURPOSES<br />
-
